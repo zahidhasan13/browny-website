@@ -10,6 +10,9 @@
   .nav-items li a {
     font-size: 0.9rem;
   }
+  .hero-sec {
+    height: 700px;
+  }
 }
 /* ------------------------- */
 /* Media Query Max-width:992 */
@@ -28,10 +31,9 @@
     width: 100%;
     position: absolute;
     left: 0;
-    top: -100%;
+    top: -999px;
     padding: 20px 0 20px 70px;
     gap: 2rem;
-    z-index: -1;
     transition: all 0.5s ease-in-out;
   }
   .nav-items-active {
@@ -47,6 +49,9 @@
     border: 1px solid var(--primary-color);
     padding: 10px;
     border-radius: 5px;
+  }
+  .hero-sec {
+    z-index: -20;
   }
 }
 /* ------------------------ */
